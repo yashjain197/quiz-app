@@ -1,0 +1,33 @@
+/* components/Dashboard.css */
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  height: 100vh; /* Set height of container to full viewport height */
+}
+
+.dashboard-title {
+  color: #333;
+}
+
+.dashboard-message {
+  margin-top: 20px;
+  color: #666;
+}
+
+.start-quiz-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-quiz-button:hover {
+  background-color: #0056b3;
+}
